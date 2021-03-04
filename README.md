@@ -20,14 +20,22 @@ Yolo 를 통한 object detectoion 과 OCR을 통하여 에너지소비효율등�
 
 
 
-### object detection
+
+
+## object detection
 
 ![image](https://user-images.githubusercontent.com/67899393/109926488-5b4d4b00-7d06-11eb-8a04-96eb24a2332b.png)
 
 
 Object detection은 찾고 싶은 물체를 라벨링 하여 학습시킨 모델을 가지고 다른 이미지에서 그 물체를 찾는 기술
 
-### OCR
+
+
+
+
+
+
+## OCR
 
 ![image](https://user-images.githubusercontent.com/67899393/109926598-7b7d0a00-7d06-11eb-9d1b-881b2450b36e.png)
 
@@ -41,10 +49,15 @@ OCR 광학 문자 인식
 
 
 
+
+
+
 ## 검색 옵션
 사용자의 요구사항 입력
 
 ![image](https://user-images.githubusercontent.com/67899393/109926875-d0b91b80-7d06-11eb-8af9-e382ec7be65b.png)
+
+
 
 
 
