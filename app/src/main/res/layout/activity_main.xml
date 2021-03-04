@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/basic"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="제품 추천 시스템"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/camera_btn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/camera3"
+        android:text=""
+        android:textColor="#000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="스캔"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/camera_btn"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="@+id/camera_btn"
+        app:layout_constraintTop_toBottomOf="@+id/camera_btn" />
+
+    <TextView
+        android:id="@+id/text_direct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="직접입력"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/write_btn"
+        app:layout_constraintStart_toStartOf="@+id/write_btn"
+        app:layout_constraintTop_toTopOf="@+id/text_scan" />
+
+    <Button
+        android:id="@+id/write_btn"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/write2"
+        android:text=""
+        android:textColor="#000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/camera_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/camera_btn"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
